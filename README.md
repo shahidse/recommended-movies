@@ -28,8 +28,20 @@
 
 ## Project setup
 
+## Prerequisites
+
+### 1. Install MySQL
+
+Before starting the application, you need to configure a MySQL database. Follow the instructions below to set it up.
+If you haven't already, install MySQL. You can download it from the [official MySQL website](https://dev.mysql.com/downloads/mysql/).
+update .env accordindly
+
+### 2. install dependencies
+
+this will dump some dummy data to database.
+
 ```bash
-$ npm install
+$ npm install  #install dependencies first
 ```
 
 ## Compile and run the project
